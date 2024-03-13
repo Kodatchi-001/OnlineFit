@@ -51,14 +51,17 @@ header h1 {
     align-items: center;
     animation: 2s mov-1;
 }
-@keyframes mov-1{
-    from{
+
+@keyframes mov-1 {
+    from {
         margin-top: -50vh
     }
-    to{
+
+    to {
         margin-top: 0;
     }
 }
+
 .content-2-link {
     width: 100%;
     height: 50%;
@@ -127,11 +130,13 @@ header h1 {
     flex-wrap: wrap;
     animation: 2s mov-2;
 }
-@keyframes mov-2{
-    from{
+
+@keyframes mov-2 {
+    from {
         margin-left: -50vw;
     }
-    to{
+
+    to {
         margin-left: 0;
     }
 }
@@ -186,11 +191,13 @@ header h1 {
     flex-wrap: wrap;
     animation: 2s mov-4;
 }
-@keyframes mov-4{
-    from{
+
+@keyframes mov-4 {
+    from {
         transform: scale(0);
     }
-    to{
+
+    to {
         transform: scale(1);
     }
 }
@@ -315,11 +322,13 @@ header h1 {
     flex-wrap: wrap;
     animation: 2s mov-3;
 }
-@keyframes mov-3{
-    from{
+
+@keyframes mov-3 {
+    from {
         margin-right: -70vw;
     }
-    to{
+
+    to {
         margin-right: 0;
     }
 }
@@ -471,7 +480,7 @@ header h1 {
     font-size: 1.7vw;
 }
 
-#page-1{
+#page-1 {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -479,7 +488,8 @@ header h1 {
     align-items: center;
     display: flex;
 }
-.page-1-content{
+
+.page-1-content {
     width: 95%;
     height: 95%;
     display: flex;
@@ -487,7 +497,8 @@ header h1 {
     align-items: center;
     flex-wrap: wrap;
 }
-.page-1-button{
+
+.page-1-button {
     width: 100%;
     height: 15%;
     display: flex;
@@ -495,7 +506,8 @@ header h1 {
     align-items: center;
     justify-content: space-between;
 }
-.page-1-button h3{
+
+.page-1-button h3 {
     width: 13vw;
     height: 6.5vh;
     background-color: rgba(255, 166, 0, 0.055);
@@ -506,14 +518,16 @@ header h1 {
     color: rgb(255, 128, 0);
     font-size: 1.7vw;
 }
-.page-1-button-content{
+
+.page-1-button-content {
     width: 20%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.page-1-button-content a{
+
+.page-1-button-content a {
     width: 2.5vw;
     height: 5vh;
     background-color: white;
@@ -525,43 +539,50 @@ header h1 {
     border-radius: 50%;
     color: rgb(255, 132, 0);
 }
-.button-scrolle{
+
+.button-scrolle {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.button-scrolle h1{
+
+.button-scrolle h1 {
     font-size: 2.6vw;
 }
 
-.page-1-card{
+.page-1-card {
     width: 100%;
-    height: 85%;;
+    height: 85%;
+    ;
     display: flex;
     gap: 5px;
 }
-.page-1-card-1{
+
+.page-1-card-1 {
     width: 50%;
-    height: 85%;;
+    height: 85%;
+    ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.page-1-card-1 h1{
+
+.page-1-card-1 h1 {
     width: 80%;
     font-size: 7vw;
     margin-right: auto;
 }
-.page-1-card-1-info{
+
+.page-1-card-1-info {
     width: 100%;
     height: 20%;
     display: flex;
 }
 
-.inf-img{
+.inf-img {
     width: 30%;
     height: 100%;
     display: flex;
@@ -585,11 +606,12 @@ header h1 {
     filter: grayscale(100%);
     margin-top: 2vh;
 }
-#img-7{
+
+#img-7 {
     margin-right: -0.5vw;
 }
 
-.info-tittle{
+.info-tittle {
     width: 30%;
     height: 100%;
     display: flex;
@@ -597,18 +619,22 @@ header h1 {
     align-items: center;
     gap: 5px;
 }
-.info-tittle i{
+
+.info-tittle i {
     color: orange;
     font-size: 1.6vw;
 }
-.info-tittle h2{
+
+.info-tittle h2 {
     font-size: 2vw;
 }
-.info-tittle h3{
+
+.info-tittle h3 {
     font-size: 1.5vw;
     color: rgb(174, 174, 174);
 }
-.page-1-card-1-info-2{
+
+.page-1-card-1-info-2 {
     width: 85%;
     height: 30%;
     display: flex;
@@ -617,22 +643,24 @@ header h1 {
     flex-wrap: wrap;
     gap: 25px;
 }
-.page-1-card-1-info-2 p{
+
+.page-1-card-1-info-2 p {
     width: 82%;
     font-size: 1.4vw;
     color: rgb(100, 100, 100);
     text-align: end;
 }
 
-.title-para{
-   width: 100%;
-   margin-left: auto;
-   display: flex;
-   justify-content: end;
+.title-para {
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
 }
-.title-para h3{
-    width: 14vw;
-    height: 7vh;
+
+.title-para h3 {
+    width: 13vw;
+    height: 6vh;
     background-color: rgb(255, 119, 0);
     display: flex;
     justify-content: center;
@@ -641,7 +669,8 @@ header h1 {
     color: white;
     font-size: 1.6vw;
 }
-.page-1-card-2{
+
+.page-1-card-2 {
     width: 45%;
     height: 95%;
     background-image: url(./bg-1.png);
@@ -654,14 +683,17 @@ header h1 {
     border-radius: 30px;
     border: 2px solid white;
 }
-.card-2{
+
+.card-2 {
     width: 100%;
-    height: 15%;;
+    height: 15%;
+    ;
     display: flex;
     align-items: center;
     padding-left: 2vw;
 }
-.card-2 h2{
+
+.card-2 h2 {
     width: 3vw;
     height: 6vh;
     display: flex;
@@ -673,44 +705,119 @@ header h1 {
     color: white;
 }
 
-.card-2 h1{
+.card-2 h1 {
     font-size: 4vw;
     display: flex;
     align-items: center;
 }
-.card-2-para{
+
+.card-2-para {
     width: 100%;
-    height: 20%;;
+    height: 20%;
+    ;
     display: flex;
     align-items: center;
     padding-left: 2vw;
 }
-.card-2-para p{
+
+.card-2-para p {
     width: 55%;
     font-size: 1.4vw;
 }
-.card-2-img{
+
+.card-2-img {
     width: 100%;
     height: 50%;
     display: flex;
     justify-content: end;
 }
-.card-2-img img{
+
+.card-2-img img {
     width: 35vw;
     margin-top: -17.5vh;
     margin-right: -2.5vw;
 }
 
-.page-1-content-2{
+.page-1-content-2 {
     width: 5%;
     height: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.page-1-content-2 h1{
+
+.page-1-content-2 h1 {
     rotate: 90deg;
     font-size: 3.5vw;
     margin-top: -25vh;
     color: rgb(180, 180, 180);
+}
+
+#page-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-page-2 {
+    width: 95%;
+    height: 90%;
+    background-image: url(./bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    border: 3px solid white;
+    overflow: hidden;
+}
+
+.tittle-page-2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-page-2 h2 {
+    width: 13vw;
+    height: 6vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: rgb(255, 119, 0);
+    font-size: 1.5vw;
+}
+
+.para-page-2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para-page-2 h1{
+    width: 60%;
+    font-size: 6vw;
+    text-align: center;
+    line-height: 12vh;
+}
+
+.img-page-2 {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.img-page-2 img{
+    width: 45vw;
 }

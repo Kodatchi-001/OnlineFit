@@ -129,7 +129,10 @@ haja_3.onclick = function () {
 
 var parti_1 = document.getElementById('scroll-1');
 var parti_2 = document.getElementById('scroll-2');
-
+var parti_3 = document.getElementById("scroll-3")
+var page_2 = document.getElementById('scroll-img')
+var page_2_tittle = document.getElementById('tittle-page-2')
+var page_2_para = document.getElementById('para-page-2')
 window.onscroll = function () {
         //page-1
         if (scrollY >= 550) {
@@ -141,6 +144,9 @@ window.onscroll = function () {
             parti_2.style.opacity = '1'
             parti_2.style.transition = '1s'
             parti_2.style.marginRight = '0vw'
+            //Move-3
+            parti_3.style.transition = '1s'
+            parti_3.style.marginLeft = '0vw'
         }
         else if (scrollY <= 900) {
             //Move-1
@@ -149,6 +155,28 @@ window.onscroll = function () {
             //Move-2
             parti_2.style.opacity = '0'
             parti_2.style.marginRight = '-40vw'
+            //Move-2
+            parti_3.style.marginLeft = '-10vw'
+        }
+        //page-2
+          if (scrollY >= 1450) {
+            //Move-1
+            page_2.style.transition = '1s'
+            page_2.style.marginBottom = '-12vh'
+            //Move-2
+            page_2_tittle.style.transition = '1s'
+            page_2_tittle.style.marginTop = '0vh'
+            //Move-3
+            page_2_para.style.transition = '1s'
+            page_2_para.style.marginTop = '0vh'
+        }
+        else if (scrollY <= 1300) {
+            //Move-1
+            page_2.style.marginBottom = '-40vh'
+            //Move-2
+            page_2_tittle.style.marginTop = '-90vh'
+            //Move-3
+            page_2_para.style.marginTop = '-90vh'
         }
 };
 
