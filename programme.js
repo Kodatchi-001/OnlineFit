@@ -77,3 +77,79 @@ scroll_right.onclick = function name(params) {
     scrolle.style.transform = 'translateX(0%)'
     scrolle_2.style.transform = 'translateX(0%)'
 }
+
+var haja = document.getElementById("plus")
+var haja_2 = document.getElementById("plus-num")
+var haja_3 = document.getElementById("moin-num")
+var tittle_haja = document.getElementById('tittle-card-2')
+var img_haja = document.getElementById('img-card-2')
+
+haja_2.onclick = function () {
+    var currentValue = parseInt(haja.textContent);
+    haja.textContent = currentValue + 1;
+    if (haja.textContent == 1) {
+        tittle_haja.innerHTML = 'Classement'
+        img_haja.src = './Assets/fitnesse-1.png'
+    }
+    if (haja.textContent == 2) {
+        tittle_haja.innerHTML = 'test-2'
+        img_haja.src = './Assets/tenis.png'
+    }
+    if (haja.textContent == 3) {
+        tittle_haja.innerHTML = 'test-3'
+        img_haja.src = './Assets/basquete.png'
+    }
+    if (haja.textContent == 8) {
+        haja_2.onclick = null;
+    }
+}
+
+haja_3.onclick = function () {
+    var currentValue = parseInt(haja.textContent);
+    haja.textContent = currentValue - 1;
+    if(haja.textContent == 1){
+        haja_3.onclick = null;
+    }
+    if (haja.textContent == 1) {
+        tittle_haja.innerHTML = 'Classement'
+        img_haja.src = './Assets/fitnesse-1.png'
+    }
+    if (haja.textContent == 2) {
+        tittle_haja.innerHTML = 'test-2'
+        img_haja.src = './Assets/tenis.png'
+    }
+    if (haja.textContent == 3) {
+        tittle_haja.innerHTML = 'test-3'
+        img_haja.src = './Assets/basquete.png'
+    }
+    if (haja.textContent == 8) {
+        haja_2.onclick = null;
+    }
+}
+
+var parti_1 = document.getElementById('scroll-1');
+var parti_2 = document.getElementById('scroll-2');
+
+window.onscroll = function () {
+        //page-1
+        if (scrollY >= 550) {
+            //Move-1
+            parti_1.style.opacity = '1'
+            parti_1.style.transition = '1s'
+            parti_1.style.marginLeft = '0vw'
+            //Move-2
+            parti_2.style.opacity = '1'
+            parti_2.style.transition = '1s'
+            parti_2.style.marginRight = '0vw'
+        }
+        else if (scrollY <= 900) {
+            //Move-1
+            parti_1.style.opacity = '0'
+            parti_1.style.marginLeft = '-40vw'
+            //Move-2
+            parti_2.style.opacity = '0'
+            parti_2.style.marginRight = '-40vw'
+        }
+};
+
+
