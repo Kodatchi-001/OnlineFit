@@ -901,7 +901,7 @@ header h1 {
 }
 
 .info-1-page-3 p {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     width: 90%;
     color: rgba(0, 0, 0, 0.532);
 }
@@ -925,6 +925,21 @@ header h1 {
 .test-info-2 {
     width: 100%;
     font-size: 1.5vw;
+}
+.test-info-2 i{
+    transition: 0.8s ease-in;
+}
+#najma-1{
+    color: orange;
+}
+#najma-2{
+    color: orange;
+}
+#najma-3{
+    color: orange;
+}
+#najma-4{
+    color: orange;
 }
 
 .content-page-3-tittle {

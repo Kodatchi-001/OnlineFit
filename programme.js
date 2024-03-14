@@ -85,83 +85,174 @@ scroll_right.onclick = function name(params) {
     scrolle_2.style.transform = 'translateX(0%)'
 }
 
-var haja = document.getElementById("plus")
+var haja = document.getElementById("content")
 var haja_2 = document.getElementById("plus-num")
 var haja_3 = document.getElementById("moin-num")
-var tittle_haja = document.getElementById('tittle-card-2')
-var para_haja = document.getElementById('para-2')
+
+var para = document.getElementById('para');
+var info_1 = document.getElementById('inf-1');
+var info_2 = document.getElementById('inf-2');
+
+var najma_1 = document.getElementById('najma-1');
+var najma_2 = document.getElementById('najma-2');
+var najma_3 = document.getElementById('najma-3');
+var najma_4 = document.getElementById('najma-4');
+var najma_5 = document.getElementById('najma-5');
 
 haja_2.onclick = function () {
-    var currentValue = parseInt(haja.textContent);
+    let currentValue = parseInt(haja.textContent);
     haja.textContent = currentValue + 1;
     if (haja.textContent == 1) {
-        tittle_haja.innerHTML = 'fitness'
+        info_1.innerHTML = 'Thomas Martin'
+        info_2.innerHTML = 'Freelancer'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'black'
     }
     else if (haja.textContent == 2) {
-        tittle_haja.innerHTML = 'Basketball'
-        para_haja.innerHTML = 'Highly popular internationally, especially in the United States, where it originated. It has also gained significant traction in countries like China'
+        info_1.innerHTML = 'Sophie Leclerc'
+        info_2.innerHTML = 'Infirmière'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'black'
+        najma_4.style.color = 'black'
+        najma_5.style.color = 'black'
     }
-     else if (haja.textContent == 3) {
-        tittle_haja.innerHTML = 'Tennis'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+    else if (haja.textContent == 3) {
+        info_1.innerHTML = 'Émilie Rousseau'
+        info_2.innerHTML = 'Chef cuisinier'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'orange'
     }
-     else if (haja.textContent == 4) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+    else if (haja.textContent == 4) {
+        info_1.innerHTML = 'Julien Moreau '
+        info_2.innerHTML = 'Journaliste'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'black'
+        najma_5.style.color = 'black'
     }
-     else if (haja.textContent == 5) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+    else if (haja.textContent == 5) {
+        info_1.innerHTML = 'Laura Dubois'
+        info_2.innerHTML = 'Psychologue'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'black'
+        najma_3.style.color = 'black'
+        najma_4.style.color = 'black'
+        najma_5.style.color = 'black'
     }
     else if (haja.textContent == 6) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+        info_1.innerHTML = 'Élodie Bertrand'
+        info_2.innerHTML = 'Designer graphique'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'orange'
     }
     else if (haja.textContent == 7) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+        info_1.innerHTML = 'Nicolas Lefebvre'
+        info_2.innerHTML = 'Avocat'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'black'
     }
     else if (haja.textContent <= 8) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+        info_1.innerHTML = 'Léa Bergeron'
+        info_2.innerHTML = 'Développeur web'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'orange'
         haja_2.onclick = null;
     }
 }
 
 haja_3.onclick = function () {
-    var currentValue = parseInt(haja.textContent);
+    let currentValue = parseInt(haja.textContent);
     haja.textContent = currentValue - 1;
 
-    if (haja.textContent == 1) {
-         haja_3.onclick = null;
+    if (haja.textContent <= 1) {
+        info_1.innerHTML = 'Thomas Martin'
+        info_2.innerHTML = 'Freelancer'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'black'
+        haja_3.onclick = null;
     }
     else if (haja.textContent == 2) {
-        tittle_haja.innerHTML = 'Basketball'
-        para_haja.innerHTML = 'Highly popular internationally, especially in the United States, where it originated. It has also gained significant traction in countries like China'
+        info_1.innerHTML = 'Sophie Leclerc'
+        info_2.innerHTML = 'Infirmière'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'black'
+        najma_4.style.color = 'black'
+        najma_5.style.color = 'black'
     }
-     else if (haja.textContent == 3) {
-        tittle_haja.innerHTML = 'Tennis'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+    else if (haja.textContent == 3) {
+        info_1.innerHTML = 'Émilie Rousseau'
+        info_2.innerHTML = 'Chef cuisinier'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'orange'
     }
-     else if (haja.textContent == 4) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+    else if (haja.textContent == 4) {
+        info_1.innerHTML = 'Julien Moreau '
+        info_2.innerHTML = 'Journaliste'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'black'
+        najma_5.style.color = 'black'
     }
-     else if (haja.textContent == 5) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+    else if (haja.textContent == 5) {
+        info_1.innerHTML = 'Laura Dubois'
+        info_2.innerHTML = 'Psychologue'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'black'
+        najma_3.style.color = 'black'
+        najma_4.style.color = 'black'
+        najma_5.style.color = 'black'
     }
     else if (haja.textContent == 6) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+        info_1.innerHTML = 'Élodie Bertrand'
+        info_2.innerHTML = 'Designer graphique'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'orange'
     }
     else if (haja.textContent == 7) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+        info_1.innerHTML = 'Nicolas Lefebvre'
+        info_2.innerHTML = 'Avocat'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'black'
     }
     else if (haja.textContent == 8) {
-        tittle_haja.innerHTML = 'Fitness'
-        para_haja.innerHTML = 'A globally watched and played sport, with major tournaments such as Wimbledon, the US Open, and the Australian Open attracting millions of viewers.'
+        info_1.innerHTML = 'Léa Bergeron'
+        info_2.innerHTML = 'Développeur web'
+        najma_1.style.color = 'orange'
+        najma_2.style.color = 'orange'
+        najma_3.style.color = 'orange'
+        najma_4.style.color = 'orange'
+        najma_5.style.color = 'orange'
     }
 }
 
@@ -194,4 +285,68 @@ window.onscroll = function () {
     }
 };
 
+var plus_img = document.getElementById('plus-img');
+var moin_img = document.getElementById('moin-img');
+var haja_img = document.getElementById("plus-content")
+var img = document.getElementById('change-img');
 
+plus_img.onclick = function () {
+    let currentValue_2 = parseInt(haja_img.textContent);
+    haja_img.textContent = currentValue_2 + 1;
+
+    if (haja_img.textContent == 1) {
+        img.src = './Assets/terre.jpg'
+    }
+    else if (haja_img.textContent == 2) {
+        img.src = './Assets/racing.jpg'
+    }
+    else if (haja_img.textContent == 3) {
+        img.src = './Assets/tenisse.jpg'
+    }
+    else if (haja_img.textContent == 4) {
+        img.src = './Assets/swim.jpg'
+    }
+    else if (haja_img.textContent == 5) {
+        img.src = './Assets/regby.jpg'
+    }
+    else if (haja_img.textContent == 6) {
+        img.src = './Assets/fitness.jpg'
+    }
+    else if (haja_img.textContent == 7) {
+        img.src = './Assets/ffotballe.jpg'
+    }
+    else if (haja_img.textContent <= 8) {
+        img.src = './Assets/sport.jpg'
+        plus_img.onclick = null
+    }
+}
+moin_img.onclick = function () {
+    let currentValue_2 = parseInt(haja_img.textContent);
+    haja_img.textContent = currentValue_2 - 1;
+
+    if (haja_img.textContent <= 1) {
+        img.src = './Assets/terre.jpg'
+        moin_img.onclick = null
+    }
+    else if (haja_img.textContent == 2) {
+        img.src = './Assets/racing.jpg'
+    }
+    else if (haja_img.textContent == 3) {
+        img.src = './Assets/tenisse.jpg'
+    }
+    else if (haja_img.textContent == 4) {
+        img.src = './Assets/swim.jpg'
+    }
+    else if (haja_img.textContent == 5) {
+        img.src = './Assets/regby.jpg'
+    }
+    else if (haja_img.textContent == 6) {
+        img.src = './Assets/fitness.jpg'
+    }
+    else if (haja_img.textContent == 7) {
+        img.src = './Assets/ffotballe.jpg'
+    }
+    else if (haja_img.textContent == 8) {
+        img.src = './Assets/sport.jpg'
+    }
+}
