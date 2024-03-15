@@ -258,11 +258,39 @@ haja_3.onclick = function () {
 
 var parti_1 = document.getElementById('scroll-1');
 var parti_2 = document.getElementById('scroll-2');
-var parti_3 = document.getElementById("scroll-3")
-var page_2 = document.getElementById('scroll-img')
-var page_2_tittle = document.getElementById('tittle-page-2')
-var page_2_para = document.getElementById('para-page-2')
+var parti_3 = document.getElementById("scroll-3");
+
+var page_2 = document.getElementById('scroll-img');
+var page_2_tittle = document.getElementById('tittle-page-2');
+var page_2_para = document.getElementById('para-page-2');
+var scrol_3 = document.getElementById('scrol-page-3');
+
+var card_1 = document.getElementById('card-1');
+var card_2 = document.getElementById('card-2');
+var card_3 = document.getElementById('card-3');
+
 window.onscroll = function () {
+    //page-1
+    if (scrollY >= 500) {
+        //Move-1
+        scrol_3.style.transition = '2s'
+        scrol_3.style.marginLeft = '0vw'
+        //Move-2
+        card_1.style.transition = '2s'
+        card_1.style.transform = 'scale(1)'
+        card_2.style.transition = '3s'
+        card_2.style.transform = 'scale(1)'
+        card_3.style.transition = '4s'
+        card_3.style.transform = 'scale(1)'
+    }
+    else if (scrollY <= 450) {
+        //Move-1
+        scrol_3.style.marginLeft = '-100vw';
+        //Move-2
+        card_1.style.transform = 'scale(0)'
+        card_2.style.transform = 'scale(0)'
+        card_3.style.transform = 'scale(0)'
+    }
     //page-2
     if (scrollY >= 1390) {
         //Move-1
