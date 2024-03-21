@@ -1324,7 +1324,6 @@ header h1 {
     .content-home-card-2 {
         width: 100%;
         height: 100%;
-        margin-top: 2vh;
     }
 
     .card-icone-2 i {
@@ -1396,8 +1395,440 @@ header h1 {
     }
 
     .tittle-bar-scrolle span {
-        color: gray;
         font-size: 5vw;
     }
+
+    /*page-1*/
+    .content-page-1 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        margin-top: 5vh;
+        gap: 30px;
+    }
+
+    .page-1-button {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .page-1-button h3 {
+        width: 50vw;
+        height: 8vh;
+        background-color: rgba(255, 111, 0, 0.959);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        color: white;
+        font-size: 8vw;
+    }
+
+    .page-1-button-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-1-button-content a {
+        width: 8vw;
+        height: 5.5vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 5vw;
+        border-radius: 50%;
+        color: rgb(255, 132, 0);
+    }
+
+    .button-scrolle {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-scrolle h1 {
+        font-size: 10vw;
+    }
+
+    .page-1-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .content-page-1-1 {
+        width: 90%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .page-1-1 {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .card-3 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 2vw;
+    }
+
+    .card-3 h2 {
+        width: 8vw;
+        height: 5.5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        font-size: 5vw;
+    }
+
+    .page-1-1-tittle {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        align-items: end;
+    }
+
+    .page-1-1-tittle h1 {
+        font-size: 9vw;
+    }
+
+    .page-1-1-info {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .info-1-page-1 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        margin-left: 2vw;
+    }
+
+    .info-1-page-1 p {
+        font-size: 3.5vw;
+        width: 100%;
+        color: rgb(0, 0, 0);
+    }
+
+    .test-info {
+        width: 100%;
+        height: 20%;
+    }
+
+    .test-info h1 {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .test-info h3 {
+        width: 100%;
+        font-size: 5vw;
+    }
+
+    .test-info-2 {
+        width: 100%;
+        font-size: 4.5vw;
+    }
+
+    .content-page-1-tittle {
+        width: 100%;
+        height: 25%;
+    }
+
+    .content-page-1-tittle h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 10vw;
+    }
+
+    .content-page-1-card {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card-info {
+        width: 100%;
+        height: 15vh;
+        background-color: rgb(234, 233, 233);
+        border-radius: 20px;
+    }
+
+    .card-info-buy {
+        width: 50%;
+        height: 100%;
+        align-items: center;
+        padding-top: 0vh;
+    }
+
+    .card-info-buy h3 {
+        width: 30vw;
+        height: 7vh;
+        font-size: 4vw;
+        background-color: rgb(255, 132, 0);
+        color: white;
+        border-radius: 10px;
+    }
+
+    .card-info-tittle {
+        width: 50%;
+        height: 100%;
+        flex-wrap: wrap;
+        padding-right: 1.5vw;
+    }
+
+    .card-info-tittle h1 {
+        font-size: 6vw;
+        width: 100%;
+    }
+
+    .card-info-tittle p {
+        width: 100%;
+        font-size: 3.5vw;
+    }
+
+    /*page-2*/
+    .content-page-2 {
+        width: 90%;
+        height: 95vh;
+        margin-top: 2vh;
+        gap: 20px;
+    }
+
+    .tittle-page-2 {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tittle-page-2 h2 {
+        width: 45vw;
+        height: 8vh;
+        background-color: rgb(244, 244, 244);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        color: rgb(255, 119, 0);
+        font-size: 5vw;
+    }
+
+    .para-page-2 {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .para-page-2 h1 {
+        width: 100%;
+        font-size: 14vw;
+        text-align: center;
+        line-height: 10vh;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .img-page-2 {
+        width: 100%;
+        height: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .img-page-2 img {
+        width: 100vw;
+    }
+
+    /*Page-3*/
+    .page-3-content {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 2vh;
+    }
+
+    .page-3-button {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .page-3-button h3 {
+        width: 45vw;
+        height: 8vh;
+        font-size: 6vw;
+        background-color: rgb(255, 132, 0);
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page-3-button-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-3-button-content a {
+        width: 8vw;
+        height: 5.5vh;
+        font-size: 5vw;
+        border-radius: 50%;
+        color: rgb(255, 132, 0);
+    }
+
+    .button-scrolle {
+        width: 45%;
+        height: 100%;
+    }
+
+    .button-scrolle h1 {
+        font-size: 10vw;
+    }
+
+    .page-3-card {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .page-3-card-1 {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .page-3-card-1 h1 {
+        width: 100%;
+        font-size: 15vw;
+        line-height: 10vh;
+        text-align: center;
+    }
+
+    .page-3-card-1-info {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .inf-img {
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+    }
+
+    .scrol-2 {
+        width: 18vw;
+        height: 12vh;
+    }
+
+    .scrol-2 img {
+        width: 20vw;
+    }
+
+    #img-7 {
+        margin-right: -0.5vw;
+    }
+
+    .info-tittle {
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+    }
+
+    .info-tittle i {
+        font-size: 8vw;
+    }
+
+    .info-tittle h2 {
+        font-size: 9vw;
+    }
+
+    .info-tittle h3 {
+        font-size: 8vw;
+    }
+
+    .page-3-card-1-info-2 {
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .page-3-card-1-info-2 p {
+        width: 80%;
+        font-size: 4vw;
+        text-align: center;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-para {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-para h3 {
+        width: 35vw;
+        height: 8vh;
+        border-radius: 20px;
+        font-size: 5vw;
+    }
+
+    .page-3-card-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*page-4*/
+    .tittle-page-4 {
+        width: 100%;
+    }
+
+    .tittle-page-4 h1 {
+        font-size: 18vw;
+        width: 100%;
+        line-height: 11vh;
+    }
+
+    .img-page-4 img {
+        width: 90vw;
+    }
+
 
 }
