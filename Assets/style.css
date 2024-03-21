@@ -20,6 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 /*parti-icone-1*/
 .content-1 {
     width: 30%;
@@ -47,6 +48,7 @@ header h1 {
     color: white;
     border-radius: 50%;
 }
+
 /*parti-link*/
 .content-2 {
     width: 40%;
@@ -94,6 +96,7 @@ header h1 {
     font-size: 1.2vw;
     font-weight: 900;
 }
+
 /*parti-icone-2*/
 #too {
     justify-content: end;
@@ -106,6 +109,7 @@ header h1 {
     justify-content: center;
     align-items: center;
 }
+
 /*home*/
 #home {
     height: 80vh;
@@ -254,6 +258,7 @@ header h1 {
     align-items: center;
     gap: 10px;
 }
+
 .info-1 a {
     width: 3vw;
     height: 6vh;
@@ -266,6 +271,7 @@ header h1 {
     color: rgb(255, 132, 0);
     text-decoration: none;
 }
+
 .info-2 {
     width: 50%;
     height: 100%;
@@ -273,6 +279,7 @@ header h1 {
     justify-content: center;
     align-items: center;
 }
+
 .info-2 a {
     width: 10vw;
     height: 5.5vh;
@@ -1068,6 +1075,7 @@ header h1 {
     margin-top: -17.5vh;
     margin-right: -2.5vw;
 }
+
 /*page-4*/
 .tittle-page-4 {
     width: 100%;
@@ -1098,6 +1106,298 @@ header h1 {
     width: 33vw;
     filter: drop-shadow(0px 40px 30px rgba(0, 0, 0, 0.505));
 }
-@media (max-width:500px){
-    
+
+@media (max-width:500px) {
+
+    /*parti-icone-1*/
+    .content-1 {
+        width: 10%;
+    }
+
+    .content-logo {
+        width: 90%;
+    }
+
+    header h1 {
+        width: 8vw;
+        height: 6vh;
+    }
+
+    /*parti-link*/
+    .content-2 {
+        width: 80%;
+    }
+
+    .content-2-link {
+        height: 70%;
+    }
+
+    .content-2-link li a {
+        font-size: 4vw;
+    }
+
+    .pages {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*home*/
+    #home {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        flex-wrap: wrap-reverse;
+        gap: 70px;
+    }
+
+    #taille {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content-home {
+        height: 100%;
+        height: 100%;
+    }
+
+    .content-home-card {
+        width: 75%;
+        height: 50vh;
+    }
+
+    .card-icone {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .card-icone h1 {
+        width: 15vw;
+        height: 10vh;
+    }
+
+    .card-icone h1 i {
+        margin-top: 0.9vh;
+        font-size: 8vw;
+    }
+
+    #card-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    #change {
+        width: 110vw;
+        margin-left: 0;
+    }
+
+    #taille-2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-tittle {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .content-tittle h1 {
+        width: 100%;
+        font-size: 30vw;
+        font-weight: 600;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .content-tittle p {
+        width: 90%;
+        height: 20%;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .content-info {
+        width: 85%;
+        height: 30%;
+    }
+
+    .info-content {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 4vh;
+    }
+
+    .info-1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info-1 a {
+        width: 11vw;
+        height: 8vh;
+        font-size: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: rgb(255, 132, 0);
+        text-decoration: none;
+    }
+
+    .info-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-2 a {
+        width: 30vw;
+        height: 6vh;
+        background-color: rgb(255, 132, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        color: white;
+        font-size: 5vw;
+        text-decoration: none;
+    }
+
+    .info-content-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        gap: 15px;
+    }
+
+    .info-content-2-1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info-content-2-1 h2 {
+        font-size: 6vw;
+    }
+
+    .info-content-2-1 h2 i {
+        font-size: 6.5vw;
+        color: rgb(255, 132, 0);
+    }
+
+    .info-content-2-1 p {
+        width: 100%;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    #taille-3 {
+        width: 100%;
+    }
+
+    .content-home-card-2 {
+        width: 100%;
+        height: 100%;
+        margin-top: 2vh;
+    }
+
+    .card-icone-2 i {
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .scrol-1 {
+        width: 15vw;
+        height: 10vh;
+    }
+
+    .scrol-1 img {
+        width: 16vw;
+    }
+
+    .card-img-2 img {
+        width: 45vw;
+    }
+
+    .bar-key {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .tittle-bar {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    .tittle-bar-scrolle {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 35vw;
+    }
+
+    .tittle-bar-scrolle::-webkit-scrollbar {
+        width: 0;
+        display: none;
+    }
+
+    .tittle-bar-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .tittle-bar-scrolle h1 {
+        font-size: 5vw;
+    }
+
+    .tittle-bar-scrolle span {
+        color: gray;
+        font-size: 5vw;
+    }
+
 }
