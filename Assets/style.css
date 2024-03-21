@@ -139,6 +139,7 @@ header h1 {
     border-radius: 20px;
     flex-wrap: wrap;
     animation: 2s mov-2;
+    overflow: visible;
 }
 
 @keyframes mov-2 {
@@ -183,11 +184,11 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: end;
-    overflow: hidden;
 }
 
 #change {
-    width: 36vw;
+    width: 35vw;
+    margin-left: -5vw;
 }
 
 #taille-2 {
@@ -1096,4 +1097,7 @@ header h1 {
 .img-page-4 img {
     width: 33vw;
     filter: drop-shadow(0px 40px 30px rgba(0, 0, 0, 0.505));
+}
+@media (max-width:500px){
+    
 }
