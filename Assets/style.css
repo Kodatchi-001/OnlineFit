@@ -20,7 +20,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
+/*parti-icone-1*/
 .content-1 {
     width: 30%;
     height: 100%;
@@ -47,7 +47,7 @@ header h1 {
     color: white;
     border-radius: 50%;
 }
-
+/*parti-link*/
 .content-2 {
     width: 40%;
     height: 100%;
@@ -94,7 +94,7 @@ header h1 {
     font-size: 1.2vw;
     font-weight: 900;
 }
-
+/*parti-icone-2*/
 #too {
     justify-content: end;
 }
@@ -106,9 +106,9 @@ header h1 {
     justify-content: center;
     align-items: center;
 }
-
+/*home*/
 #home {
-    height: 90vh;
+    height: 80vh;
     overflow: hidden;
     flex-wrap: wrap;
 }
@@ -196,7 +196,7 @@ header h1 {
 
 .content-tittle {
     width: 80%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     animation: 2s mov-4;
@@ -253,15 +253,6 @@ header h1 {
     align-items: center;
     gap: 10px;
 }
-
-.info-2 {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .info-1 a {
     width: 3vw;
     height: 6vh;
@@ -274,7 +265,13 @@ header h1 {
     color: rgb(255, 132, 0);
     text-decoration: none;
 }
-
+.info-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .info-2 a {
     width: 10vw;
     height: 5.5vh;
@@ -432,7 +429,7 @@ header h1 {
 
 .bar-key {
     width: 100%;
-    height: 10%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -494,9 +491,10 @@ header h1 {
     font-size: 1.7vw;
 }
 
-.page-1-content {
+/*page-1*/
+.content-page-1 {
     width: 95%;
-    height: 95%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -510,10 +508,11 @@ header h1 {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
 .page-1-button h3 {
-    width: 13vw;
+    width: 10vw;
     height: 6.5vh;
     background-color: rgba(255, 166, 0, 0.055);
     display: flex;
@@ -557,268 +556,7 @@ header h1 {
     font-size: 2.6vw;
 }
 
-.page-1-card {
-    width: 90%;
-    height: 85%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.page-1-card-1 {
-    width: 50%;
-    height: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.page-1-card-1 h1 {
-    width: 90%;
-    font-size: 7vw;
-    margin-right: auto;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 600;
-    line-height: 12vh;
-}
-
-.page-1-card-1-info {
-    width: 100%;
-    height: 20%;
-    display: flex;
-}
-
-.inf-img {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.scrol-2 {
-    width: 4.5vw;
-    height: 9vh;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.scrol-2 img {
-    width: 4vw;
-    filter: grayscale(100%);
-    margin-top: 2vh;
-}
-
-#img-7 {
-    margin-right: -0.5vw;
-}
-
-.info-tittle {
-    width: 30%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-}
-
-.info-tittle i {
-    color: orange;
-    font-size: 1.6vw;
-}
-
-.info-tittle h2 {
-    font-size: 2vw;
-}
-
-.info-tittle h3 {
-    font-size: 1.5vw;
-    color: rgb(174, 174, 174);
-}
-
-.page-1-card-1-info-2 {
-    width: 85%;
-    height: 30%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-
-.page-1-card-1-info-2 p {
-    width: 90%;
-    font-size: 1.4vw;
-    color: rgb(100, 100, 100);
-    text-align: end;
-}
-
-.title-para {
-    width: 100%;
-    margin-left: auto;
-    display: flex;
-    justify-content: end;
-}
-
-.title-para h3 {
-    width: 12vw;
-    height: 6vh;
-    background-color: rgb(255, 119, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px;
-    color: white;
-    font-size: 1.5vw;
-}
-
-.page-1-card-2 {
-    width: 30%;
-    height: 95%;
-}
-
-.page-1-card-2 img {
-    width: 100%;
-    height: 100%;
-    border: 2px solid white;
-    border-radius: 30px;
-}
-
-.card-2 h1 {
-    font-size: 4vw;
-    display: flex;
-    align-items: center;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 600;
-}
-
-.card-2-para {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    padding-left: 2vw;
-}
-
-.card-2-para p {
-    width: 80%;
-    font-size: 1.2vw;
-}
-
-.card-2-img {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: end;
-}
-
-.card-2-img img {
-    width: 35vw;
-    margin-top: -17.5vh;
-    margin-right: -2.5vw;
-}
-
-.content-page-2 {
-    width: 95%;
-    height: 90%;
-    background-image: url(./bg-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    border-radius: 30px;
-    border: 3px solid white;
-    overflow: hidden;
-}
-
-.tittle-page-2 {
-    width: 100%;
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tittle-page-2 h2 {
-    width: 14vw;
-    height: 6vh;
-    background-color: rgb(244, 244, 244);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px;
-    color: rgb(255, 119, 0);
-    font-size: 1.5vw;
-}
-
-.para-page-2 {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.para-page-2 h1 {
-    width: 60%;
-    font-size: 6vw;
-    text-align: center;
-    line-height: 12vh;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 700;
-}
-
-.img-page-2 {
-    width: 100%;
-    height: 55%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
-
-.img-page-2 img {
-    width: 40vw;
-}
-
-/*page-3*/
-.content-page-3 {
-    width: 95%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.page-3-button {
-    width: 100%;
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
-
-.page-3-button h3 {
-    width: 10vw;
-    height: 6.5vh;
-    background-color: rgba(255, 166, 0, 0.055);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    color: rgb(255, 128, 0);
-    font-size: 1.7vw;
-}
-
-.page-3-content {
+.page-1-content {
     width: 100%;
     height: 85%;
     display: flex;
@@ -826,7 +564,7 @@ header h1 {
     gap: 5px;
 }
 
-.content-page-3-1 {
+.content-page-1-1 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -836,7 +574,7 @@ header h1 {
     gap: 20px;
 }
 
-.page-3-1 {
+.page-1-1 {
     width: 90%;
     height: 100%;
     border-radius: 20px;
@@ -870,7 +608,7 @@ header h1 {
     color: white;
 }
 
-.page-3-1-tittle {
+.page-1-1-tittle {
     width: 100%;
     height: 25%;
     display: flex;
@@ -878,14 +616,14 @@ header h1 {
     flex-wrap: wrap;
 }
 
-.page-3-1-tittle h1 {
+.page-1-1-tittle h1 {
     font-size: 4vw;
     padding-left: 2vw;
     font-family: "Noto Sans", sans-serif;
     font-weight: 600;
 }
 
-.page-3-1-info {
+.page-1-1-info {
     width: 100%;
     height: 75%;
     display: flex;
@@ -893,7 +631,7 @@ header h1 {
     align-items: start;
 }
 
-.info-1-page-3 {
+.info-1-page-1 {
     width: 60%;
     height: 70%;
     display: flex;
@@ -902,7 +640,7 @@ header h1 {
     margin-left: 2vw;
 }
 
-.info-1-page-3 p {
+.info-1-page-1 p {
     font-size: 1.3vw;
     width: 90%;
     color: rgba(0, 0, 0, 0.532);
@@ -949,7 +687,7 @@ header h1 {
     color: orange;
 }
 
-.content-page-3-tittle {
+.content-page-1-tittle {
     width: 100%;
     height: 25%;
     display: flex;
@@ -957,7 +695,7 @@ header h1 {
     align-items: center;
 }
 
-.content-page-3-tittle h1 {
+.content-page-1-tittle h1 {
     width: 70%;
     text-align: end;
     font-size: 5vw;
@@ -966,7 +704,7 @@ header h1 {
     line-height: 10vh;
 }
 
-.content-page-3-card {
+.content-page-1-card {
     width: 100%;
     height: 70%;
     display: flex;
@@ -1036,16 +774,300 @@ header h1 {
     font-size: 1.5vw;
 }
 
-.bar-key-2 {
+/*page-2*/
+.content-page-2 {
+    width: 95%;
+    height: 90%;
+    background-image: url(./bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    border: 3px solid white;
+    overflow: hidden;
+}
+
+.tittle-page-2 {
     width: 100%;
-    height: 10vh;
+    height: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*page-4*/
+.tittle-page-2 h2 {
+    width: 14vw;
+    height: 6vh;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: rgb(255, 119, 0);
+    font-size: 1.5vw;
+}
 
+.para-page-2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para-page-2 h1 {
+    width: 60%;
+    font-size: 6vw;
+    text-align: center;
+    line-height: 12vh;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+}
+
+.img-page-2 {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.img-page-2 img {
+    width: 40vw;
+}
+
+/*Page-3*/
+.page-3-content {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-3-button {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-3-button h3 {
+    width: 13vw;
+    height: 6.5vh;
+    background-color: rgba(255, 166, 0, 0.055);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(255, 128, 0);
+    font-size: 1.7vw;
+}
+
+.page-3-button-content {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-3-button-content a {
+    width: 2.5vw;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border-radius: 50%;
+    color: rgb(255, 132, 0);
+}
+
+.button-scrolle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-scrolle h1 {
+    font-size: 2.6vw;
+}
+
+.page-3-card {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-3-card-1 {
+    width: 50%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-3-card-1 h1 {
+    width: 90%;
+    font-size: 7vw;
+    margin-right: auto;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    line-height: 12vh;
+}
+
+.page-3-card-1-info {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+.inf-img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrol-2 {
+    width: 4.5vw;
+    height: 9vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.scrol-2 img {
+    width: 4vw;
+    filter: grayscale(100%);
+    margin-top: 2vh;
+}
+
+#img-7 {
+    margin-right: -0.5vw;
+}
+
+.info-tittle {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.info-tittle i {
+    color: orange;
+    font-size: 1.6vw;
+}
+
+.info-tittle h2 {
+    font-size: 2vw;
+}
+
+.info-tittle h3 {
+    font-size: 1.5vw;
+    color: rgb(174, 174, 174);
+}
+
+.page-3-card-1-info-2 {
+    width: 85%;
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.page-3-card-1-info-2 p {
+    width: 90%;
+    font-size: 1.4vw;
+    color: rgb(100, 100, 100);
+    text-align: end;
+}
+
+.title-para {
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.title-para h3 {
+    width: 12vw;
+    height: 6vh;
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.page-3-card-2 {
+    width: 30%;
+    height: 95%;
+}
+
+.page-3-card-2 img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.card-2 h1 {
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+}
+
+.card-2-para {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.card-2-para p {
+    width: 80%;
+    font-size: 1.2vw;
+}
+
+.card-2-img {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.card-2-img img {
+    width: 35vw;
+    margin-top: -17.5vh;
+    margin-right: -2.5vw;
+}
+/*page-4*/
 .tittle-page-4 {
     width: 100%;
     height: 50%;
@@ -1074,183 +1096,4 @@ header h1 {
 .img-page-4 img {
     width: 33vw;
     filter: drop-shadow(0px 40px 30px rgba(0, 0, 0, 0.505));
-}
-
-@media (max-width:500px) {
-
-    /*header*/
-    .content-1 {
-        width: 15%;
-    }
-
-    header h1 {
-        width: 9vw;
-    }
-
-    .content-2 {
-        width: 90%;
-    }
-
-    .content-2-link li a {
-        font-size: 4vw;
-    }
-    /*page-1*/
-    .pages {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #home {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        flex-wrap: wrap-reverse;
-        margin-top: 3vh;
-    }
-
-    #taille {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .content-home-card {
-        width: 75%;
-        height: 90%;
-        margin-top: 5vh;
-    }
-    .card-icone h1 {
-        width: 20vw;
-        height: 14vh;
-        font-size: 10vw;
-        background-color: rgb(255, 132, 0);
-        color: white;
-        border-radius: 50%;
-        margin-top: -5vh;
-        margin-right: -5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #card-img {
-        width: 100%;
-        height: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    #card-img img{
-        width: 110vw;
-    }
-
-    #change {
-        width: 36vw;
-    }
-
-    #taille-2 {
-        width: 100%;
-        height: 100%;
-    }
-    .content-tittle {
-        gap: 20px;
-    }
-
-    .content-tittle h1 {
-        width: 100%;
-        font-size: 30vw;
-        line-height: 15vh;
-    }
-
-    .content-tittle p {
-        width: 100%;
-        height: 20%;
-        font-size: 4vw;
-        text-align: center;
-    }
-
-    .content-info {
-        width: 100%;
-        height: 100%;
-    }
-
-    .info-content {
-        width: 100%;
-        height: 100%;
-        flex-wrap: wrap;
-    }
-
-    .info-1 {
-        width: 100%;
-        height: 10vh;
-    }
-
-    .info-2 {
-        width: 100%;
-        height: 10vh;
-    }
-
-    .info-1 a {
-        width: 10vw;
-        height: 7vh;
-        font-size: 6vw;
-    }
-
-    .info-2 a {
-        width: 35vw;
-        height: 6vh;
-        font-size: 6vw;
-    }
-
-    .info-content-2 {
-        width: 100%;
-        height: 20vh;
-    }
-
-    .info-content-2-1 {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
-
-    .info-content-2-1 h2 {
-        font-size: 6.5vw;
-    }
-
-    .info-content-2-1 h2 i {
-        font-size: 5vw;
-    }
-
-    .info-content-2-1 p {
-        width: 100%;
-        text-align: center;
-        font-size: 4.5vw;
-    }
-
-    #taille-3 {
-        width: 100%;
-        height: 100%;
-    }
-
-    .card-icone-2 i {
-        width: 10vw;
-        height: 7vh;
-        font-size: 6vw;
-    }
-    
-    .scrol-1 {
-        width: 15vw;
-        height: 10vh;
-    }
-
-    .scrol-1 img {
-        width: 15vw;
-    }
-    .card-img-2 img {
-        width: 70vw;
-    }
-
 }
