@@ -19,6 +19,10 @@ img_1.onclick = function name(params) {
     tittle.innerHTML = 'Basket ball'
     tittle.style.fontSize = '10vw'
     para.innerHTML = ' Basketball is a fast-paced sport played between two teams of five players each, aiming to score points by shooting the ball through the opponents hoop.'
+    if (window.innerWidth <= 520) {
+        img_haja.style.width = '250vw'
+        tittle.style.fontSize = '30vw'
+    }
 }
 
 img_2.onclick = function name(params) {
@@ -29,6 +33,10 @@ img_2.onclick = function name(params) {
     tittle.innerHTML = 'Fitness'
     tittle.style.fontSize = '10vw'
     para.innerHTML = 'Fitness is a holistic approach to physical well-being that encompasses exercise, nutrition, and overall health. It involves engaging in regular physical activity to improve cardiovascular health, strength, flexibility, and endurance.'
+    if (window.innerWidth <= 520) {
+        img_haja.style.width = '100vw'
+        tittle.style.fontSize = '30vw'
+    }
 }
 
 img_3.onclick = function name(params) {
@@ -40,6 +48,10 @@ img_3.onclick = function name(params) {
     tittle.innerHTML = 'Tennis'
     tittle.style.fontSize = '10vw'
     para.innerHTML = 'Tennis is a racket sport played individually or in pairs, where players use rackets to hit a ball over a net into the opponents court. The objective is to score points by making it difficult .'
+    if (window.innerWidth <= 520) {
+        img_haja.style.width = '250vw'
+        tittle.style.fontSize = '30vw'
+    }
 }
 
 img_4.onclick = function name(params) {
@@ -50,6 +62,10 @@ img_4.onclick = function name(params) {
     tittle.innerHTML = 'Rugby'
     tittle.style.fontSize = '10vw'
     para.innerHTML = 'Rugby is a full-contact team sport played with an oval-shaped ball. It is typically played by two teams of 15 players each, although variations such as rugby sevens involve fewer players. The objective of the game is to score points by carrying'
+    if (window.innerWidth <= 520) {
+        img_haja.style.width = '250vw'
+        tittle.style.fontSize = '30vw'
+    }
 }
 
 img_5.onclick = function name(params) {
@@ -60,6 +76,11 @@ img_5.onclick = function name(params) {
     tittle.innerHTML = 'Football'
     tittle.style.fontSize = '9vw'
     para.innerHTML = 'Football, also known as soccer in some regions, is a team sport played between two teams of eleven players each. The objective of the game is to score goals by kicking a ball into the opponents goal'
+    if (window.innerWidth <= 520) {
+        img_haja.style.width = '250vw'
+        tittle.style.fontSize = '30vw'
+        tittle.innerHTML = 'Foot ball'
+    }
 }
 
 img_6.onclick = function name(params) {
@@ -71,6 +92,10 @@ img_6.onclick = function name(params) {
     img.style.marginBottom = '0vh'
     img.style.width = '30vw'
     para.innerHTML = 'Motor racing, often referred to simply as "racing," is a competitive sport involving vehicles propelled by internal combustion engines or electric motors. Participants, known as drivers'
+    if (window.innerWidth <= 520) {
+        img_haja.style.width = '250vw'
+        tittle.style.fontSize = '30vw'
+    }
 }
 
 var scrolle = document.getElementById('scrol');
@@ -288,47 +313,93 @@ var card_2 = document.getElementById('card-2');
 var card_3 = document.getElementById('card-3');
 
 window.onscroll = function () {
-    //page-1
-    if (scrollY >= 600) {
-        //Move-1
-        scrol_3.style.transition = '2s'
-        scrol_3.style.marginLeft = '0vw'
-        //Move-2
-        card_1.style.transition = '1.5s'
-        card_1.style.transform = 'scale(1)'
-        card_2.style.transition = '2s'
-        card_2.style.transform = 'scale(1)'
-        card_3.style.transition = '2.5s'
-        card_3.style.transform = 'scale(1)'
+    if (window.innerWidth <= 520) {
+        //page-1
+        if (scrollY >= 1150) {
+            //Move-1
+            scrol_3.style.transition = '2s'
+            scrol_3.style.marginLeft = '0vw'
+            //Move-2
+            card_1.style.transition = '4s'
+            card_1.style.transform = 'scale(1)'
+            card_2.style.transition = '6s'
+            card_2.style.transform = 'scale(1)'
+            card_3.style.transition = '7s'
+            card_3.style.transform = 'scale(1)'
+        }
+        else if (scrollY <= 950) {
+            //Move-1
+            scrol_3.style.marginLeft = '-200vw';
+            //Move-2
+            card_1.style.transform = 'scale(0)'
+            card_2.style.transform = 'scale(0)'
+            card_3.style.transform = 'scale(0)'
+        }
+        //page-2
+        if (scrollY >= 2820) {
+            //Move-1
+            page_2.style.transition = '1s'
+            page_2.style.marginBottom = '2vh'
+            //Move-2
+            page_2_tittle.style.transition = '1s'
+            page_2_tittle.style.marginTop = '0vh'
+            //Move-3
+            page_2_para.style.transition = '1s'
+            page_2_para.style.marginTop = '0vh'
+        }
+        else if (scrollY <= 2200) {
+            //Move-1
+            page_2.style.marginBottom = '-80vh'
+            //Move-2
+            page_2_tittle.style.marginTop = '-100vh'
+            //Move-3
+            page_2_para.style.marginTop = '-100vh'
+        }
     }
-    else if (scrollY <= 450) {
-        //Move-1
-        scrol_3.style.marginLeft = '-100vw';
-        //Move-2
-        card_1.style.transform = 'scale(0)'
-        card_2.style.transform = 'scale(0)'
-        card_3.style.transform = 'scale(0)'
+    else if (window.innerWidth <= 2000) {
+        //page-1
+        if (scrollY >= 600) {
+            //Move-1
+            scrol_3.style.transition = '2s'
+            scrol_3.style.marginLeft = '0vw'
+            //Move-2
+            card_1.style.transition = '1.5s'
+            card_1.style.transform = 'scale(1)'
+            card_2.style.transition = '2s'
+            card_2.style.transform = 'scale(1)'
+            card_3.style.transition = '2.5s'
+            card_3.style.transform = 'scale(1)'
+        }
+        else if (scrollY <= 450) {
+            //Move-1
+            scrol_3.style.marginLeft = '-100vw';
+            //Move-2
+            card_1.style.transform = 'scale(0)'
+            card_2.style.transform = 'scale(0)'
+            card_3.style.transform = 'scale(0)'
+        }
+        //page-2
+        if (scrollY >= 1390) {
+            //Move-1
+            page_2.style.transition = '1s'
+            page_2.style.marginBottom = '-12vh'
+            //Move-2
+            page_2_tittle.style.transition = '1s'
+            page_2_tittle.style.marginTop = '0vh'
+            //Move-3
+            page_2_para.style.transition = '1s'
+            page_2_para.style.marginTop = '0vh'
+        }
+        else if (scrollY <= 1200) {
+            //Move-1
+            page_2.style.marginBottom = '-40vh'
+            //Move-2
+            page_2_tittle.style.marginTop = '-90vh'
+            //Move-3
+            page_2_para.style.marginTop = '-90vh'
+        }
     }
-    //page-2
-    if (scrollY >= 1390) {
-        //Move-1
-        page_2.style.transition = '1s'
-        page_2.style.marginBottom = '-12vh'
-        //Move-2
-        page_2_tittle.style.transition = '1s'
-        page_2_tittle.style.marginTop = '0vh'
-        //Move-3
-        page_2_para.style.transition = '1s'
-        page_2_para.style.marginTop = '0vh'
-    }
-    else if (scrollY <= 1200) {
-        //Move-1
-        page_2.style.marginBottom = '-40vh'
-        //Move-2
-        page_2_tittle.style.marginTop = '-90vh'
-        //Move-3
-        page_2_para.style.marginTop = '-90vh'
-    }
+    
 };
 
 var plus_img = document.getElementById('plus-img');
