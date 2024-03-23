@@ -357,26 +357,26 @@ window.onscroll = function () {
         }
     }
     else if (window.innerWidth <= 2000) {
-        //page-1
+        /page-1
         if (scrollY >= 600) {
             //Move-1
             scrol_3.style.transition = '2s'
             scrol_3.style.marginLeft = '0vw'
             //Move-2
-            card_1.style.transition = '1.5s'
-            card_1.style.transform = 'scale(1)'
-            card_2.style.transition = '2s'
-            card_2.style.transform = 'scale(1)'
-            card_3.style.transition = '2.5s'
-            card_3.style.transform = 'scale(1)'
+            card_1.style.transition = '2s'
+            card_1.style.marginRight = '0vw'
+            card_2.style.transition = '2.5s'
+            card_2.style.marginRight = '0vw'
+            card_3.style.transition = '3s'
+            card_3.style.marginRight = '0vw'
         }
         else if (scrollY <= 450) {
             //Move-1
             scrol_3.style.marginLeft = '-100vw';
             //Move-2
-            card_1.style.transform = 'scale(0)'
-            card_2.style.transform = 'scale(0)'
-            card_3.style.transform = 'scale(0)'
+            card_1.style.marginRight = '-200vw'
+            card_2.style.marginRight = '-200vw'
+            card_3.style.marginRight = '-200vw'
         }
         //page-2
         if (scrollY >= 1390) {
