@@ -1155,7 +1155,7 @@ header h1 {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        gap: 60px;
+        gap: 30px;
     }
 
     #taille-2 {
@@ -1205,8 +1205,8 @@ header h1 {
     }
 
     #change {
-        width: 110vw;
-        margin-left: 0;
+        width: 120vw;
+        margin-left: -20vw;
     }
 
     #taille-2 {

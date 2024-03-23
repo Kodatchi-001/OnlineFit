@@ -336,7 +336,7 @@ window.onscroll = function () {
             card_3.style.transform = 'scale(0)'
         }
         //page-2
-        if (scrollY >= 2820) {
+        if (scrollY >= 2200) {
             //Move-1
             page_2.style.transition = '1s'
             page_2.style.marginBottom = '2vh'
