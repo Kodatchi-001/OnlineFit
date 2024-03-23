@@ -357,7 +357,7 @@ window.onscroll = function () {
         }
     }
     else if (window.innerWidth <= 2000) {
-        /page-1
+        //page-1
         if (scrollY >= 600) {
             //Move-1
             scrol_3.style.transition = '2s'

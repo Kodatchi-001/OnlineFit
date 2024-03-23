@@ -1334,7 +1334,7 @@ header h1 {
     }
 
     .content-home-card-2 {
-        width: 100%;
+        width: 80%;
         height: 100%;
     }
 
@@ -1646,7 +1646,7 @@ header h1 {
         align-items: center;
         border-radius: 40px;
         color: rgb(255, 119, 0);
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
     .para-page-2 {
